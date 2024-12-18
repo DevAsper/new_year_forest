@@ -43,7 +43,7 @@ body {
 
 .message {
   position: absolute;
-  bottom: 5%;
+  bottom: 10%; /* Скорректировано положение текста */
   left: 50%;
   transform: translateX(-50%);
   font-size: 5vw; /* Адаптивный размер текста */
@@ -68,11 +68,12 @@ body {
   }
 
   #rabbit-animation {
-    bottom: 10%;
+    bottom: 20%; /* Поднято для избежания перекрытий */
     left: 5%;
   }
 
   .message {
+    bottom: 15%; /* Поднято для лучшей видимости на мобильных устройствах */
     font-size: 6vw; /* Увеличенный размер текста для мелких экранов */
   }
 }
